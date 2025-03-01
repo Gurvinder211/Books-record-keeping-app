@@ -1,0 +1,13 @@
+{
+  "name": "books-record-keeping-app",
+  "version": "1.0.0",
+  "description": "This project will help you record what books you have read and want to read, and modify your list of books.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
