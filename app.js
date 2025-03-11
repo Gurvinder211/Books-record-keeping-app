@@ -1,6 +1,14 @@
-const express = require('express');
+const express    = require('express');
+const session    = require('express-session');
+const path       = require('path');
+const connectDB  = require('./config/database.js');
+const dotenv = require("dotenv");
 const app = express()
-const port = 3000;
+const port = process.env.PORT;
+
+dotenv.config();
+connectDB();
+
 
 
 app.get('/', (req, res) => {
